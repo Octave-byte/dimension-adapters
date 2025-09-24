@@ -192,7 +192,20 @@ export const LifiDiamonds: IContract = {
   [CHAIN.KATANA]: {
     id: '0xC59fe32C9549e3E8B5dCcdAbC45BD287Bd5bA2bc',
     startTime: '2025-07-01'
-  }
+  },
+  [CHAIN.HYPEREVM]: {
+    id: '0x0a0758d937d1059c356D4714e57F5df0239bce1A',
+    startTime: '2025-06-01'
+  },
+  [CHAIN.KAIA]: {
+    id: '0x1255d17c1BC2f764d087536410879F2d0D8772fD',
+    startTime: '2025-08-01'
+  },
+  [CHAIN.PLUME]: {
+    id: '0x6f5C8Bb0C5Fe4ECeAC40EE1C238EaB6bbb29761c',
+    startTime: '2025-09-01'
+  },
+  
 }
 
 export const LifiFeeCollectors: IContract = {
@@ -276,9 +289,17 @@ export const LifiFeeCollectors: IContract = {
       id: '0x79540403cdE176Ca5f1fb95bE84A7ec91fFDEF76',
       startTime: '2024-07-30'
   },
+  [CHAIN.HYPEREVM]: {
+      id: '0x0a0758d937d1059c356D4714e57F5df0239bce1A',
+      startTime: '2025-05-19'
+  },
   [CHAIN.INK]: {
       id: '0x8295805320853d6B28778fC8f5199327e62e3d87',
       startTime: '2025-01-22'
+  },
+  [CHAIN.KATANA]: {
+      id: '0xC59fe32C9549e3E8B5dCcdAbC45BD287Bd5bA2bc',
+      startTime: '2023-06-13'
   },
   [CHAIN.LINEA]: {
       id: '0xA4A24BdD4608D7dFC496950850f9763B674F0DB2',
